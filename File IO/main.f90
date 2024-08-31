@@ -8,8 +8,6 @@ program fileio
     integer :: age = 0;
     character(len=20) :: state = "";
 
-    integer :: unit = 0; ! for file IO
-
     ! Add data to file
     call write_to_file;
 
@@ -28,14 +26,14 @@ program fileio
             integer, intent(out) :: age_;
             integer :: fstatus = 0;
 
-            ! Unit for File IO
+            ! Unit for File IO, think of this like a file pointer
             integer :: unit = 0;
 
             open(newunit=unit, file="file.txt", status="OLD");
 
             read(unit, *, iostat=fstatus) name_, age_, state_;
 
-            if (fstatus .NE. 0) then ! .NE. being !=,
+            if (fstatus /= 0) then
                 print *, "Error reading file";
             end if
 

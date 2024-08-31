@@ -301,3 +301,12 @@
           ```fortran
           s = sin(pi/2)  ! s = 1.0
           c = cos(0.0)  
+
+### Fortran Symbolic Notation for Boolean Operators
+
+- `==`  : Equal to
+- `/=`  : Not equal to
+- `<`   : Less than
+- `<=`  : Less than or equal to
+- `>`   : Greater than
+- `>=`  : Greater than or equal to
