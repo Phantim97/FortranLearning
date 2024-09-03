@@ -190,7 +190,7 @@
 - The `KIND` parameter specifies the kind of the data type, which generally corresponds to the precision or storage size.
 - `INTEGER`, `REAL`, `COMPLEX`, `LOGICAL`, and `CHARACTER` are the most common primitive data types in Fortran.
 - The `KIND` values are system-dependent, so the actual byte sizes might vary across different compilers or platforms.
-
+- Fortran Arrays start at 1, not 0.
 ### Fortran Useful Functions and Statements
 
 - **Input/Output Operations:**
