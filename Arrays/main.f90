@@ -9,16 +9,15 @@ program arrays
 
     mixed_arr = (/ 5, 8, 2, 3, 12, 6 /);
 
-
     print *, "Simple Array Example:"
     call simple_array;
 
-    print *, "Before Merge:";
+    print *, "Before Merge Sort:";
     call print_array(mixed_arr);
 
     call merge_sort(mixed_arr);
 
-    print *, "Sorted:", mixed_arr;
+    print *, "After Merge Sort:",mixed_arr;
 
     contains
         subroutine simple_array()
