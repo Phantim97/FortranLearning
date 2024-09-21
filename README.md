@@ -302,8 +302,7 @@ Although ; are not mandatory, coming from languages like C++ it makes me feel mo
         - Description: Trigonometric functions for sine, cosine, and tangent.
         - Example:
           ```fortran
-          s = sin(pi/2)  ! s = 1.0
-          c = cos(0.0)  
+          s = sin(pi/2)  ! s = 1.0 
 
 ### Fortran Symbolic Notation for Boolean Operators
 
