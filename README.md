@@ -1,5 +1,8 @@
 # Fortran Cheatsheet
 
+This repo is just to contain a quick ref to everything in Fortran that would be practically needed.
+Although ; are not mandatory, coming from languages like C++ it makes me feel more at home with this language.
+
 ## Keywords
 
 ### Fortran Keywords
