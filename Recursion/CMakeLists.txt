@@ -6,4 +6,4 @@ set(CMAKE_Fortran_STANDARD_REQUIRED ON)
 
 add_executable(recurse main.f90)
 
-add_custom_target(run COMMAND recurse DEPENDS recurse COMMENT "Running Fortran Program...")
+add_custom_target(run_recurse COMMAND recurse DEPENDS recurse COMMENT "Running Fortran Program...")

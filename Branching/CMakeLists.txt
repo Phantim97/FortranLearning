@@ -6,4 +6,4 @@ set(CMAKE_Fortran_STANDARD_REQUIRED ON)
 
 add_executable(branching main.f90)
 
-add_custom_target(run COMMAND branching DEPENDS branching COMMENT "Running Fortran Program...")
+add_custom_target(run_branching COMMAND branching DEPENDS branching COMMENT "Running Fortran Program...")

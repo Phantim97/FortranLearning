@@ -10,4 +10,4 @@ add_executable(parallel_reduction main.f90)
 
 target_link_libraries(parallel_reduction PUBLIC OpenMP::OpenMP_Fortran)
 
-add_custom_target(run COMMAND parallel_reduction DEPENDS parallel_reduction COMMENT "Running Fortran Program...")
+add_custom_target(run_mp COMMAND parallel_reduction DEPENDS parallel_reduction COMMENT "Running Fortran Program...")

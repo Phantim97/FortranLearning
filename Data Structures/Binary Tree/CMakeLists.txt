@@ -4,6 +4,6 @@ project(FortranLearning LANGUAGES Fortran)
 set(CMAKE_Fortran_STANDARD 90)
 set(CMAKE_Fortran_STANDARD_REQUIRED ON)
 
-add_executable(elemental main.f90)
+add_executable(binary_tree main.f90)
 
-add_custom_target(run_elemental COMMAND elemental DEPENDS elemental COMMENT "Running Fortran Program...")
+add_custom_target(run_binary_tree COMMAND binary_tree DEPENDS binary_tree COMMENT "Running Fortran Program...")

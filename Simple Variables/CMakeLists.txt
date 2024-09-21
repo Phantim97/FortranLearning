@@ -6,4 +6,4 @@ set(CMAKE_Fortran_STANDARD_REQUIRED ON)
 
 add_executable(vars main.f90)
 
-add_custom_target(run COMMAND vars DEPENDS vars COMMENT "Running Fortran Program...")
+add_custom_target(run_simple COMMAND vars DEPENDS vars COMMENT "Running Fortran Program...")

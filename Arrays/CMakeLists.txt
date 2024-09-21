@@ -6,4 +6,4 @@ set(CMAKE_Fortran_STANDARD_REQUIRED ON)
 
 add_executable(arrays main.f90 sorter.f90)
 
-add_custom_target(run COMMAND arrays DEPENDS arrays COMMENT "Running Fortran Program...")
+add_custom_target(run_arrays COMMAND arrays DEPENDS arrays COMMENT "Running Fortran Program...")

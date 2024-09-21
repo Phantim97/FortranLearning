@@ -6,4 +6,4 @@ set(CMAKE_Fortran_STANDARD_REQUIRED ON)
 
 add_executable(interfaces main.f90)
 
-add_custom_target(run COMMAND interfaces DEPENDS interfaces COMMENT "Running Fortran Program...")
+add_custom_target(run_interface COMMAND interfaces DEPENDS interfaces COMMENT "Running Fortran Program...")

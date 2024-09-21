@@ -6,4 +6,4 @@ set(CMAKE_Fortran_STANDARD_REQUIRED ON)
 
 add_executable(derived main.f90 person.f90)
 
-add_custom_target(run COMMAND derived DEPENDS derived COMMENT "Running Fortran Program...")
+add_custom_target(derived_run COMMAND derived DEPENDS derived COMMENT "Running Fortran Program...")

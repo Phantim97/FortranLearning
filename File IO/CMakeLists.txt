@@ -6,4 +6,4 @@ set(CMAKE_Fortran_STANDARD_REQUIRED ON)
 
 add_executable(fileio main.f90)
 
-add_custom_target(run COMMAND fileio DEPENDS fileio COMMENT "Running Fortran Program...")
+add_custom_target(run_fileio COMMAND fileio DEPENDS fileio COMMENT "Running Fortran Program...")
